@@ -1,0 +1,23 @@
+.parent {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+.parent .child {
+  background-color: antiquewhite;
+  border: 1px solid black;
+  flex: 1;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+}
+.parent #child-1 {
+  justify-content: start;
+}
+.parent #child-2 {
+  justify-content: center;
+  flex: 2;
+}
+.parent #child-3 {
+  justify-content: end;
+}
